@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="UnrealEngine\UE.cpp" />
+    <ClCompile Include="UnrealEngine\UObject\UObjectBaseUtility.cpp" />
+    <ClCompile Include="UnrealEngine\FNamePool\FNamePool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4ee20ad8-e364-4b83-868d-e0adf2e81bdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities\PatternScanner.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealEngine\Containers.h" />
+    <ClInclude Include="Utilities\Types.h" />
+    <ClInclude Include="Utilities\Log.h" />
+    <ClInclude Include="UnrealEngine\UObject\CoreUObject.h" />
+    <ClInclude Include="UnrealEngine\FUObjectArray\FUObjectArray.h" />
+    <ClInclude Include="UnrealEngine\FNamePool\FNamePool.h" />
+    <ClInclude Include="UnrealEngine\UE.h" />
+  </ItemGroup>
+</Project>
