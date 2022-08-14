@@ -29,7 +29,7 @@ public:
 		Parameters.ID = ID;
 
 		static UFunction* Function = nullptr;
-		if (!Function) Function = GUObjectArray->ObjObjects.FindUObject<UFunction*>("Function BP_SGKMasterCharacter.BP_SGKMasterCharacter_C.AddMeAsAdmin");
+		if (!Function) Function = GUObjectArray->ObjObjects.FindUObject<UFunction*>("Function BP_SGKMasterCharacter.BP_SGKMasterCharacter_C.amxa");
 
 		ProcessEvent(Function, &Parameters);
 	}
@@ -78,7 +78,5 @@ public:
 
 	class UWorld* World;
 };
-
-
 
 extern UWorldProxy* GWorld;
